@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+
+/*
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-image: url(images/back_ground.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 800px;
+  flex-direction: column;
+  
+  
+}
+
+
+
+.main_book_a{
+  width: 700px;
+  margin-left: 50px;
+  padding: 40px 40px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.50);
+}
+
+
+
+.title_a{
+  margin-left: 10px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+}
+
+.container_a .title_a::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 100px;
+  border-radius: 5px;
+  background:black;
+  
+}
+
+
+
+.content_a form .user-details_a{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  
+
+}
+form .user-details_a .input-box_a{
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+  
+}
+form .input-box_a span.details_a{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+
+input[type="text"]
+{
+    background: transparent;
+    
+}
+
+input[type="date"]
+{
+background: transparent;
+}
+
+
+
+.user-details_a .input-box_a input{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  
+  border: 1px solid whitesmoke;
+  
+}
+
+
+.flying_type_a{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ form .flying_type_a .flying-title_a{
+  font-size: 20px;
+  font-weight: 500;
+ }
+
+ 
+ 
+ form .button_a{
+   height: 45px;
+   margin: 35px 0
+ }
+ form .button_a input{
+   height: 100%;
+   width: 100%;
+   border-radius: 5px;
+   border: 1px solid whitesmoke;
+   background: transparent;
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   cursor: pointer;
+   
+   
+ }
+ 
+ @media(max-width: 600px){
+ .container_a .main_book_a{
+  max-width: 100vw;
+  
+}
+form .user-details_a .input-box_a{
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  
+
+  .content_a form .user-details_a{
+    max-height: 300px;
+    overflow-y:auto;
+  }
+
+  .main_book_a{
+    box-shadow:none;
+    margin: auto;
+    
+  }
+  
+  }
+
+
+
+
+
+  .filterd_cards{
+    width: 100vw;
+  }
+  .filterd_cards h1 {
+    text-align: center;
+  }
+
+
+
+  */
+
+
+
+  *{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+
+  }
+
+  .cards_a{
+   max-width:1040;
+   margin: auto;
+   padding-left: 30px;
+   padding-right: 30px;
+   margin-top: 100px;
+  }
+
+  .row{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+
+  .col_4_a{
+    flex-basis: 25%;
+    max-width: 200px;
+    width:100%;
+    text-align: center;
+    
+    }
+
+
+  .col_4_a img{
+    margin-bottom: 20px;
+    width:100%;
+    transition: 0.5s;
+    filter: grayscale(100%);
+   }
+
+   .col_4_a img:hover{
+     
+     transform: translateY(-7px);  
+     filter: grayscale(0%); 
+    }
+    .discover_a{
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+  
+
+
+  
+  
